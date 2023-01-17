@@ -1,0 +1,127 @@
+
+
+.HomeContainer{
+    background-image: url("https://img.freepik.com/vector-premium/mapa-mundo-gris-sobre-fondo-blanco_42634-10.jpg");
+    /* https://i.pinimg.com/736x/66/97/3d/66973d6f46d19282b830c62086a1c451.jpg */
+    padding: 3% 0 3% 0;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+}
+
+.HomeTitle{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Loading{
+    width: 150px;
+    font-display: block;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-top: -7rem;
+    color: white;
+    
+    } 
+    
+    .LoaderContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.834);
+        z-index: 1;
+    }
+    
+    /* .spinner{
+        animation: url('https://i.pinimg.com/originals/d5/0e/65/d50e65e83b9a3857503e5d69fb28b949.gif') 1.2s linear infinite ;
+    } */
+    
+     .spinner {
+        width: 64px;
+        height: 64px;
+        border: 8px solid;
+        border-color: #4eff65c4 transparent;
+        border-radius: 50%;
+        animation: spin-anim 1.2s linear infinite; 
+    }
+    
+    @keyframes spin-anim {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    } 
+    
+   /* .OrdersFilters{
+         border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 20px, 20px;
+    text-align: justify;
+    justify-content: space-between;
+    }  */
+    
+       .Filters{
+        border: 1px;
+        display: inline-block;
+        
+        margin-top: -300px;
+        text-align: left;
+        padding: 20px, 20px;
+        margin-right: -360px;
+        margin-bottom: 2rem;
+    }
+
+    .Orders{
+        border: 1px;
+        display: inline-block;
+        
+        margin-top: -300px;
+        text-align: left;
+        padding: 20px, 20px;
+        margin-left: -360px;
+        margin-bottom: 2rem;
+    } 
+
+
+    .btnToForm{
+        padding: 5px 20px;
+        background: #000000;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    
+
+    }
+
+    
+    .pageBtn{
+        padding: 5px 20px;
+        background: #000000;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        top: -50px;
+            
+    }
+  /*   .HomeRefresh{
+        padding: 5px 20px;
+        background: #000000;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        
+    } */

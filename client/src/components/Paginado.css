@@ -1,0 +1,44 @@
+.pagination {
+    
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    left: 0px;
+    top: 350px;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    
+   
+}
+
+
+
+
+.pagination ul li {
+    list-style-type: none;
+    margin: 0 1px;
+    
+}
+
+.pagination ul li button {
+    padding: 5px 20px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+
+}
+ .nav{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}  

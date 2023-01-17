@@ -1,0 +1,36 @@
+
+
+.DetalleContainer{
+    background-image: url("https://i.pinimg.com/736x/66/97/3d/66973d6f46d19282b830c62086a1c451.jpg");
+    padding: 3% 0 3% 0;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+}
+
+.DetailBackBtn{
+    padding: 5px 20px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.DetailContainer{
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.555);
+    width: auto;
+     border-radius: 8px;
+     color: rgb(0, 0, 0);
+     padding: 10px;
+     margin:  auto;
+    /*  weight: auto; =>ARREGLAR ESTO, QUIERO QUE EL ANCHO SE AJUSTE AL TEXTO */
+     height: auto;
+     border: solid 1px #ccc; 
+     font-size: 0.8em;
+     
+}

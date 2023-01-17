@@ -1,0 +1,76 @@
+.LandingContainer{
+    background-image: url("https://w0.peakpx.com/wallpaper/434/843/HD-wallpaper-el-mundo-en-la-mano-earth-flash.jpg");
+     padding: 3% 0 3% 0;
+    background-size: 100%; 
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* .LandingContainer:hover{
+  transform: translateY(5px), translateX(5px);
+  transition: width 3s, height 3s;
+} */
+
+.LandingTitle{
+    color: white;
+    top: 200px;
+}
+
+/* .LandingBtn{
+    background-color: #f89603;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    vertical-align: middle;
+    padding: 0.8em 1.2em;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.06);
+    
+    
+} */
+
+.LandingBtn {
+    border: 1px solid #ff9101;
+    color: #FFFFFF;
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    top: 200px;
+    transition: all 2s;
+    transition-delay: 2s;
+    
+    background: linear-gradient(#ecaf05, #fc9701);
+    
+  
+    
+ 
+  }
+   .LandingBtn:hover{
+    background: linear-gradient(#fa8602, #fcc203);
+    filter: brightness(120%);
+    transform: scale(0.1);
+    
+  
+     
+      transition: width 3s, height 3s, transform 3s;
+ 
+      transition-duration: 3s; 
+
+
+
+  } 
+
+  .LandingBtn:active{
+    background: linear-gradient(#fa8602, #fcc203);
+    filter: brightness(120%);
+    transform: scale(-1);
+  
+    
+  }
